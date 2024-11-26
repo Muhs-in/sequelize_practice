@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Sequelize</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="author.html">Authors</a></li>
+        <li><a href="book.html">Books</a></li>
+        <li><a href="genre.html">Genres</a></li>
+      </ul>
+    </nav>
+
+    <div class="user-form">
+      <h1>Testing sequelize progress</h1>
+      <form id="form">
+        <input type="text" name="" id="name" placeholder="Name" required />
+
+        <input type="text" name="" id="bio" placeholder="Biography" required />
+
+        <button type="submit">Create Author</button>
+      </form>
+    </div>
+
+    <div id="response-authors">
+      <table>
+        <th>Name</th>
+        <th>Bio</th>
+
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <script src="./sendAuthorData.js"></script>
+  </body>
+  <body></body>
+</html>
